@@ -26,6 +26,7 @@ public class Main {
         thirdSet= ["Java", "Set", "Map", "List"]
          */
 
+//        Set<String> firstSet = new LinkedHashSet<>();
         Set<String> firstSet = new LinkedHashSet<>();
         firstSet.add("Java");
         firstSet.add("Collection");
@@ -33,8 +34,8 @@ public class Main {
         firstSet.add("interface");
         firstSet.add("class");
         firstSet.add("Queue");
-//        firstSet.add("comparator");
-//        firstSet.add("Comparator");
+        firstSet.add("comparator");
+        firstSet.add("Comparator");
 //        firstSet.add("last");
         System.out.println(firstSet);
 
@@ -43,14 +44,14 @@ public class Main {
         secondSet.add("iterator");
         secondSet.add("Java");
         secondSet.add("Collection");
-//        secondSet.add("comparator");
-//        secondSet.add("Comparator");
+        secondSet.add("comparator");
+        secondSet.add("Comparator");
 //        secondSet.add("last");
         System.out.println(secondSet);
 
         Set<String> thirdSet = new LinkedHashSet<>();
-        thirdSet.add("Java");
         thirdSet.add("Set");
+        thirdSet.add("Java");
         thirdSet.add("Map");
         thirdSet.add("List");
         System.out.println(thirdSet);
