@@ -21,12 +21,12 @@ public class SetCombinationCreator {
 
 
 //        Set<String> names = Sets.newHashSet("Tom", "Jane", "Karen");
-        Iterator<String> iterator = tempStringSet.iterator();
-        while (iterator.hasNext()) {
-            System.out.println("iterator.next = " + iterator.next());
-            System.out.println(thirdSet.contains(iterator.next()));
-            if (thirdSet.contains(iterator.next())) {
-                firstCondition.remove(iterator.next());
+        Iterator<String> myIterator = tempStringSet.iterator();
+        while (myIterator.hasNext()) {
+            System.out.println("iterator.next = " + myIterator.next());
+            System.out.println(thirdSet.contains(myIterator.next()));
+            if (thirdSet.contains(myIterator.next())) {
+                firstCondition.remove(myIterator.next());
 //                combinationFirstSecondMinusThird.add(iterator.next());
             }
         }
